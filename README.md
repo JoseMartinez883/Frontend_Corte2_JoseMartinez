@@ -6,6 +6,15 @@
 
 ---
 
+## 🚀 Despliegue en Vivo en Producción (Vercel)
+
+> [!TIP]
+> ### 🌐 Aplicación Desplegada y Lista para Pruebas en Vivo
+> **Enlace Oficial de Producción:** [https://bella-ciao-restaurant1.vercel.app/](https://bella-ciao-restaurant1.vercel.app/)  
+> *(Aplicación web autónoma con catálogo digital, personalización de platos, pedidos a mesa, seguimiento en tiempo real, gestión de salón, comanda KDS de cocina, liquidación de cuentas y perfiles de acceso).*
+
+---
+
 ## 📹 Video Demostrativo de Funcionalidades
 
 > [!IMPORTANT]
