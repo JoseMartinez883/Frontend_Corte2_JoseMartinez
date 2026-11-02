@@ -15,6 +15,16 @@
 
 ---
 
+## 📚 Documentación Técnica y Arquitectura
+
+Para consultar la documentación técnica profunda del proyecto, puedes acceder directamente a los siguientes documentos ubicados en la carpeta [`/docs`](./docs/):
+
+* 📐 [**Arquitectura Frontend (ARCHITECTURE.md)**](./docs/ARCHITECTURE.md): Diseño modular por capas (L1..L4), flujo de datos unidireccional, separación de responsabilidades y estrategias de rendimiento.
+* 🔗 [**Matriz de Trazabilidad con el Backend (BACKEND_FRONTEND_TRACEABILITY.md)**](./docs/BACKEND_FRONTEND_TRACEABILITY.md): Correspondencia exhaustiva 1:1 de entidades, DTOs, validaciones de negocio y matriz de control de acceso RBAC.
+* 🎨 [**Sistema de Diseño (DESIGN_SYSTEM.md)**](./docs/DESIGN_SYSTEM.md): Guía de estilos toscanos, tokens cromáticos, tipografía formal y especificación de componentes de interfaz.
+
+---
+
 ## 📖 Descripción General del Proyecto
 
 Aplicación web frontend moderna para la digitalización integral del restaurante de cocina italiana **Bella Ciao**. La plataforma permite a los comensales explorar la carta de pastas frescas y pizzas a la piedra, personalizar sus pedidos, solicitar comensales a la mesa, realizar reservas y calificar su experiencia gastronómica.
@@ -76,6 +86,10 @@ Genera la carpeta optimizada `/dist` lista para ser desplegada en Vercel, Netlif
 
 ```text
 Frontend_Corte2_JoseMartinez/
+├── docs/                   # Documentación técnica detallada
+│   ├── ARCHITECTURE.md     # Documento detallado de la arquitectura frontend
+│   ├── BACKEND_FRONTEND_TRACEABILITY.md # Matriz de correspondencia con el Backend
+│   └── DESIGN_SYSTEM.md    # Tokens de diseño, tipografía y paleta de colores
 ├── public/                 # Iconos y assets estáticos
 ├── src/
 │   ├── components/         # Componentes visuales desacoplados
@@ -99,9 +113,6 @@ Frontend_Corte2_JoseMartinez/
 │   ├── App.jsx             # Enrutador principal y layout general
 │   ├── index.css           # Configuración de Tailwind CSS
 │   └── main.jsx            # Bootstrap de la aplicación React
-├── ARCHITECTURE.md         # Documento detallado de la arquitectura frontend
-├── BACKEND_FRONTEND_TRACEABILITY.md # Matriz de correspondencia con el Backend
-├── DESIGN_SYSTEM.md        # Tokens de diseño, tipografía y paleta de colores
 ├── package.json            # Configuración de scripts y dependencias
 ├── tailwind.config.js      # Configuración de colores y temas
 ├── vercel.json             # Reglas de reescritura para despliegue en Vercel
@@ -127,4 +138,3 @@ El frontend implementa el patrón **Service Layer (Inversión de Dependencias)**
 1. No se requiere modificar ningún componente visual de `components/` o `pages/`.
 2. Se reemplaza `mockApiService.js` por llamadas HTTP con Axios o Fetch apuntando a `http://localhost:8080/api/v1/...`.
 3. Todos los nombres de atributos, campos de formularios y estados son 100% idénticos a los DTOs de Java del Backend.
-
