@@ -15,12 +15,19 @@
 
 ---
 
-## 📹 Video Demostrativo de Funcionalidades
+## 📹 Videos Demostrativos de Funcionalidades
 
 > [!IMPORTANT]
-> ### 🎬 Enlace al Video de Demostración de la Plataforma
-> **Enlace del Video:** `[AGREGA AQUÍ EL LINK DE TU VIDEO DE YOUTUBE / LOOM / DRIVE]`  
-> *(Graba entre 2 y 3 minutos navegando por las pantallas: Inicio, Menú con filtros, Carrito y Confirmación de Comanda, Seguimiento en vivo, Salón de Mesas y Cobro de Cuenta, y Control de Parqueadero).*
+> ### 🎬 Demostración de la Plataforma en Video (YouTube)
+> Los siguientes videos presentan la navegación completa por la plataforma frontend, demostrando la operatividad de todos los roles y las funcionalidades desacopladas del restaurante:
+> 
+> * 🎥 **Parte 1 — Flujo Integral de la Plataforma (Cliente, Cocina y Salón):**  
+>   👉 **[Ver Video Principal en YouTube](https://youtu.be/oj8kniuCpmU)** (`https://youtu.be/oj8kniuCpmU`)  
+>   *(Recorrido interactivo: navegación por el menú, personalización de pastas y pizzas, confirmación de comandas a mesa, seguimiento en tiempo real, tablero KDS de cocina, plano interactivo de salón, facturación con propina y reserva de mesas con validación de traslape).*
+> 
+> * 📊 **Parte 2 — Módulo Administrativo y Reportes (`ReporteController`):**  
+>   👉 **[Ver Video Anexo en YouTube](https://youtu.be/DwFLEI21PRY)** (`https://youtu.be/DwFLEI21PRY`)  
+>   *(Demostración detallada del panel de métricas del Administrador: resumen del día, ocupación, platos más vendidos, auditoría financiera de ingresos totales y control de aforo del parqueadero tarifado por minuto).*
 
 ---
 
